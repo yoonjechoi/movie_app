@@ -33,7 +33,7 @@ class App extends Component {
             poster: "http://img.lifestyler.co.kr/uploads/program/cheditor/2016/12/SN9HGA4BTLTE2CD7PC4J_1024x0.jpg"
           }]
       }));
-    }, 5000);
+    }, 2000);
   }
 
   _render_movies = () => {
