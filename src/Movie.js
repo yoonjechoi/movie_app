@@ -23,10 +23,10 @@ class MoviePoster extends Component {
     static propTypes = {
         poster: PropTypes.string.isRequired
     }
-    
+
     render() {
         return (
-            <img src={this.props.poster} />
+            <img src={this.props.poster} alt=""/>
         );
     }
 }
